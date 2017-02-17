@@ -1,0 +1,34 @@
+/**
+ * color
+ */
+.color>div{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	color: #ccc;
+}
+.color-red{
+	background: #F1757D;
+}
+.color-orange{
+	background: #FB7;
+}
+.color-yellow{
+	background: #FBDB7D;
+}
+.color-green{
+	background: #DDED91;
+}
+.color-cyan{
+	background: #9BE7F1;
+}
+.color-blue{
+	background: #9DBBF1;
+}
+.color-purple{
+	background: #B3A5DF;
+}

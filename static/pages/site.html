@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>lingxiao</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="/static/resources/bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/static/resources/css/common/base.css">
+		<link rel="stylesheet" type="text/css" href="/static/resources/css/common/page.css">
+		<link rel="stylesheet" type="text/css" href="/static/resources/css/pages/color.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<ul>
+					<li><a href="#/index">主页</a></li>
+					<li><a href="#/charts">乱来</a></li>
+				</ul>
+			</div>
+		</header>
+		<div ng-view></div>
+		<script type="text/javascript" src="/static/resources/bower_components/seajs/dist/sea-debug.js"></script>
+		<script type="text/javascript" src="/static/resources/js/seajs-config.js"></script>
+		<script type="text/javascript">
+			seajs.use('bootstrap');
+			seajs.use('/static/resources/js/controller/indexCtr.js');
+		</script>
+	</body>
+</html>
