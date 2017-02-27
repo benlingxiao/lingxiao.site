@@ -25,7 +25,8 @@ seajs.config({
 		"area" : jsPath + "system/util/area.js",
 		"valid" : jsPath + "system/util/valid.js",
 		"qrcode" : 'jquery-qrcode/jquery.qrcode.min.js',
-		"echarts" : 'echarts-2.2.7/build/dist/echarts-all.js'
+		"echarts" : 'echarts-2.2.7/build/dist/echarts-all.js',
+		"fullpage" : 'fullpage/js/jquery.fullPage.js'
 	}
 });
 

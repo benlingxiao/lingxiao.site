@@ -1,34 +1,75 @@
 /**
  * color
  */
+.background{
+	background: url(../../images/background.jpg) center center no-repeat;
+	background-attachment: fixed;
+}
 .color>div{
 	height: 100vh;
 	margin: 0;
 	padding: 0;
-	display: flex;
+	/*display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 	font-size: 50px;
-	color: #ccc;
+	/*color: #ccc;*/
+	text-align: center;
+	opacity: 0.5;
 }
 .color-red{
-	background: #F1757D;
+	background: #FFAFBD;
+	background: -webkit-radial-gradient(#FFAFBD, #ffc3a0); /* Safari 5.1 - 6.0 */
+  	background: -o-radial-gradient(#FFAFBD, #ffc3a0); /* Opera 11.6 - 12.0 */
+  	background: -moz-radial-gradient(#FFAFBD, #ffc3a0); /* Firefox 3.6 - 15 */
+  	background: radial-gradient(#FFAFBD, #ffc3a0); /* 标准的语法 */
+	color: #F1757D;
 }
 .color-orange{
-	background: #FB7;
+	background: #FF8235;
+	background: -webkit-radial-gradient(#FF8235, #30E8BF); /* Safari 5.1 - 6.0 */
+  	background: -o-radial-gradient(#FF8235, #30E8BF); /* Opera 11.6 - 12.0 */
+  	background: -moz-radial-gradient(#FF8235, #30E8BF); /* Firefox 3.6 - 15 */
+  	background: radial-gradient(#FF8235, #30E8BF); /* 标准的语法 */
+	color: #FB7;
 }
 .color-yellow{
-	background: #FBDB7D;
+	background: #f8b500;
+	background: -webkit-radial-gradient(#f8b500, #fceabb); /* Safari 5.1 - 6.0 */
+  	background: -o-radial-gradient(#f8b500, #fceabb); /* Opera 11.6 - 12.0 */
+  	background: -moz-radial-gradient(#f8b500, #fceabb); /* Firefox 3.6 - 15 */
+  	background: radial-gradient(#f8b500, #fceabb); /* 标准的语法 */
+	color: #FBDB7D;
 }
 .color-green{
-	background: #DDED91;
+	background: #1D976C;
+	background: -webkit-radial-gradient(#1D976C, #93F9B9); /* Safari 5.1 - 6.0 */
+  	background: -o-radial-gradient(#1D976C, #93F9B9); /* Opera 11.6 - 12.0 */
+  	background: -moz-radial-gradient(#1D976C, #93F9B9); /* Firefox 3.6 - 15 */
+  	background: radial-gradient(#1D976C, #93F9B9); /* 标准的语法 */
+	color: #DDED91;
 }
 .color-cyan{
-	background: #9BE7F1;
+	background: #2BC0E4;
+	background: -webkit-radial-gradient(#2BC0E4, #EAECC6); /* Safari 5.1 - 6.0 */
+  	background: -o-radial-gradient(#2BC0E4, #EAECC6); /* Opera 11.6 - 12.0 */
+  	background: -moz-radial-gradient(#2BC0E4, #EAECC6); /* Firefox 3.6 - 15 */
+  	background: radial-gradient(#2BC0E4, #EAECC6); /* 标准的语法 */
+	color: #9BE7F1;
 }
 .color-blue{
-	background: #9DBBF1;
+	background: #00d2ff;
+	background: -webkit-radial-gradient(#00d2ff, #928DAB); /* Safari 5.1 - 6.0 */
+  	background: -o-radial-gradient(#00d2ff, #928DAB); /* Opera 11.6 - 12.0 */
+  	background: -moz-radial-gradient(#00d2ff, #928DAB); /* Firefox 3.6 - 15 */
+  	background: radial-gradient(#00d2ff, #928DAB); /* 标准的语法 */
+	color: #9DBBF1;
 }
 .color-purple{
-	background: #B3A5DF;
+	background: #F4E2D8;
+	background: -webkit-radial-gradient(#F4E2D8, #BA5370); /* Safari 5.1 - 6.0 */
+  	background: -o-radial-gradient(#F4E2D8, #BA5370); /* Opera 11.6 - 12.0 */
+  	background: -moz-radial-gradient(#F4E2D8, #BA5370); /* Firefox 3.6 - 15 */
+  	background: radial-gradient(#F4E2D8, #BA5370); /* 标准的语法 */
+	color: #B3A5DF;
 }
