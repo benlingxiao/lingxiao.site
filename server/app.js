@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 //var users = require('./routes/users');
+var train = require('./routes/trainTime');
 
 var app = express();
 
@@ -32,7 +33,7 @@ app.use('/static',express.static(path.join(__dirname, '../static')));
 
 //后台部分
 app.use('/', routes);
-
+app.use('/train', train);
 
 
 // catch 404 and forward to error handler
